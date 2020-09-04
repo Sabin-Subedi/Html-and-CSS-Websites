@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background: url(/Image.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.logo {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+.log img {
+  width: 150px;
+}
+
+.icons {
+  display: flex;
+  flex-direction: column;
+  margin: 25px 25px 0 25px;
+  font-size: 30px;
+  justify-content: center;
+  color: darkgrey;
+  width: 15%;
+}
+
+.icons i {
+  margin: 15px 0;
+  cursor: pointer;
+}
+
+.icons i:nth-child(-n + 4) {
+  margin: 25px 0;
+}
+
+.icons i:last-child {
+  margin-bottom: 0;
+}
+
+.icons i:hover {
+  color: rgb(12, 109, 173);
+}
+
+.line {
+  border-left: 4px solid darkgrey;
+  height: 150px;
+  transform: translateX(10px);
+}
+
+.texts {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.texts h1 {
+  font-size: 130px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  opacity: 20%;
+  color: white;
+  font-family: "Heebo";
+}
+
+.btn {
+  border: 2px solid rgb(214, 0, 36);
+  background: none;
+  font-size: 16px;
+  padding: 8px 50px;
+  color: white;
+  position: absolute;
+  left: 0;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: rgb(214, 0, 36);
+  color: white;
+}
+
+.sample-text {
+  width: 40%;
+  overflow: hidden;
+  float: right;
+  color: white;
+  transform: translateX(150px);
+}
+
+.sample-text p {
+  font-size: 12px;
+  font-family: sans-serif;
+  opacity: 0.5;
+}
